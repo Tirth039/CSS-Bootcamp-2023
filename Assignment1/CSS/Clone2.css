@@ -1,0 +1,63 @@
+.container
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:35%;
+    border: 2px solid;
+    border-radius: 12px 12px 0px 0px;
+    border-color:lightgrey ;
+    /* Margin:60px auto; */
+
+    Margin:30px auto;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-bottom:0px;
+}
+
+.img-contaimer
+{
+   margin-top: 50px;
+   margin-bottom: 40px;
+}
+
+.last-container
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:35%;
+    border: 2px solid;
+    border-top: none;
+    border-radius: 0px 0px 12px 12px ;
+    border-color:lightgrey ;
+    Margin:0px auto;
+    padding-left: 30px;
+    padding-top: 2px;
+}
+
+
+img
+{
+  height: 85px;
+  width: 85px;
+  border-radius:50%;
+  box-sizing: border-box;
+  margin: auto 32px;
+}
+
+h1
+{
+  font-weight:600;
+}
+
+h2
+{
+  color: rgb(40, 145, 249);
+    font-weight: bold;
+    font-size: 20px;
+    padding:5px 20px 20px 20px;
+    margin-left: 0px;
+}
+
+p
+{
+    color:grey;
+    font-size:18px;
+}
