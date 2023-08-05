@@ -1,0 +1,126 @@
+.header-container
+{
+    height: 40vh;
+    border: none;
+    width: 99vw;
+    position: sticky;;
+    /* display: flex;
+    flex-direction: row;
+    gap: 10px;*/
+    
+}
+
+
+
+.nav-container
+{
+   height:18vh;
+   width: 99%;
+   border:none;
+   margin: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center
+}
+
+.left-nav
+{
+    padding-top:25px;
+}
+
+.middle-nav
+{
+    border: solid darkgrey ;
+    border-radius: 25px;
+width: 30%;
+padding:2px 2px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.right-nav
+{
+    border: none ;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.middle-nav > button
+{
+    border-style: none;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:40px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+#search
+{
+    display: flex;
+    align-items: center;
+    padding:5px;
+    border-radius: 48%;
+    background-color:deeppink;
+}
+
+#mid-border
+{
+    border-top: none;
+    border-bottom: none;
+    border-right:solid darkgrey ;
+}
+#mid
+{
+    border: gray;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+}
+
+/* CSS of Tab class */
+
+.tab-container
+{
+   height:18vh;
+   width: 99%;
+   border:none;
+   margin: 4px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center
+}
+
+.tab
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lab
+{
+     font-size: 13px;
+    position: absolute;
+    bottom:-25px;
+}
+.more
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
