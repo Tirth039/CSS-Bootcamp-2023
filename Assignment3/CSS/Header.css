@@ -1,9 +1,10 @@
 .header-container
 {
     height: 40vh;
-    border: none;
-    width: 99vw;
-    position: sticky;;
+    width: 90vw;
+    position: sticky;
+    margin: 2px auto;
+    text-align: center;
     /* display: flex;
     flex-direction: row;
     gap: 10px;*/
